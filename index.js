@@ -30,22 +30,24 @@ const questions = [
     },
     {
         type: 'list',
-        message: 'List any licenses that apply to your project (if any):',
+        message: 'List any licenses that apply to your project:',
         choices: [
+            'Open',
             'Apache',
             'Academic',
             'GNU',
             'ISC',
             'MIT',
             'Mozilla',
-            'Open'
+            'Other License'
         ],
         name: 'licenses'
     },
     {
         type: 'input',
         message: 'List all contributors:',
-        name: 'contributors'
+        name: 'contributors',
+        default: 'No additional contributors.'
     },
     {
         type: 'input',
@@ -81,8 +83,7 @@ async function init() {
         console.log('Generating your README...')
         const content = generateMarkdown(responses);
         console.log('README generated!');
-        console.log(content);
-        await writeFileAsync('./files/README.md', content);
+        await writeFileAsync('./NewREADME.md', content);
     } catch (error) {
         console.log(error);
     }
