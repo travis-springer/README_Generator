@@ -1,4 +1,4 @@
-# Readme Generator
+# Sample Project
 ![badge](https://img.shields.io/badge/license-Open-blue)
 
 ## Table of Contents
@@ -11,19 +11,13 @@
 * [Questions](#questions)
 
 ## Description
-This application will prompt the user for information and use that information to generate a README.md file for use with their application.
-A sample file is located in the root of this repository.
-Demo video: https://drive.google.com/file/d/1WwmaSB7H0U7MFWARxaX7dn1Y2sqFpABC/view
+This is a sample for demonstration purposes only.
 
 ## Installation
-In order to run this application, the following is required:
-- [Install Node.js](https://nodejs.org/en/download/)
-- Clone this repository
-- Install packages through NPM
-- Execute the index.js file to start the app
+No installation is required.
 
 ## Usage
-Used for application developers to easily generate README files for their apps.
+Demonstration.
 
 ## License
 This application is covered under the following license:
